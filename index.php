@@ -1,5 +1,9 @@
 <?php
 require_once "./Classes/Products.php";
+require_once "./Classes/Category.php";
+require_once "./Classes/Food.php";
+require_once "./Classes/Game.php";
+
 
 $newProducts = new Products ("pallina", "giochi per cani", "3.99", "") ;
 
